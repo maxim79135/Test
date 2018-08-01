@@ -59,3 +59,4 @@ int main()
     cout << "dist4 = "; dist4.showdist(); cout << endl;
     return 0;
 }
+
