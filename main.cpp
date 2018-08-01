@@ -7,6 +7,8 @@ class Distance
 {
 private:
     int feet;
+    int n;
+    int m
     float inches;
 public:
     Distance();
