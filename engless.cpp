@@ -5,6 +5,7 @@ using namespace std;
 class Distance {
 	private:
 		int feet;
+		int n;
 		float inches;
 	public:
 		Distance() : feet(0), inches(0) { }

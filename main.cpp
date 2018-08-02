@@ -6,7 +6,6 @@ class Distance
 {
 private:
     int feet;
-    int n;
     float inches;
 public:
     Distance();
