@@ -2,7 +2,6 @@
 
 using namespace std;
 
-
 class Distance
 {
 private:
@@ -15,6 +14,7 @@ public:
     void showdist();
     Distance operator+ (Distance) const;
 };
+
 
 Distance::Distance() : feet(0), inches(0) {
 
