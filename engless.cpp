@@ -22,7 +22,6 @@ class Distance {
 		bool operator<(Distance) const;
 };
 
-
 bool Distance::operator<(Distance d2) const {
 	float bf1 = feet + inches / 12;
 	float bf2 = d2.feet + inches / 12;
