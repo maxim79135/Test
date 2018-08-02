@@ -14,8 +14,7 @@ class Distance {
 			cout << "\nFeet: "; cin >> feet;
 			cout << "\nInches: "; cin >> inches;		
 		}
-		
-
+	
 		void showdist() {
 			cout << feet << "\'-" << inches << '\"';
 		}
