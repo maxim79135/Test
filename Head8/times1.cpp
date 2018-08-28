@@ -11,7 +11,7 @@ class time12 {
 	public:
 		time12() : pm(true), hrs(0), mins(0) { }
 		time12(bool ap, int h, int m) : pm(ap), hrs(h), mins(m) { }
-
+ 
 		void display() const {
 			cout << hrs << ":";
 			if (mins < 10) cout << "0";
