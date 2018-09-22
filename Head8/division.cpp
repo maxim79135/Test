@@ -26,6 +26,7 @@ int main(int argc, char const *argv[])
 			z /= 5;
 		}
 		if (p < q) p = q;
+
 		for (int i = 1; i <= p; i++) {
 			m *= 10;
 			cout << m / n;
@@ -39,6 +40,8 @@ int main(int argc, char const *argv[])
 				p++;
 				q = q % z * 10 + 9;
 			}
+			cout << p;
+			
 			for (int k = 1; k <= p; k++){
 				m *= 10;
 				cout << m / n;
